@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:glee2429/auto-changelog.git",
   "author": "Claire L. <gl2429@columbia.edu>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.0"
+  }
 }
